@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Nightwatch · Calendario de quests</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar"><div class="brand"><img class="guild-avatar" src="guild-nightwatch.png" alt="Emblema de Nightwatch"> NIGHTWATCH <small>TIBIA GUILD</small></div><span class="header-note"><i></i> Calendario de la guild</span></header>
+  <main>
+    <section class="intro"><div class="eyebrow">NIGHTWATCH · AGENDA MENSUAL</div><h1>Calendario de<br><span>quests.</span></h1><p>Aquí se verán las quests programadas para el mes, con su día, fecha y horario.<br>Revisa el grupo de WhatsApp para confirmar asistencia y detalles.</p><div class="intro-meta"><span>◇ &nbsp; Agenda de la guild</span><span>◷ &nbsp; Hora de Ciudad de México</span></div><div class="guild-art"><img src="guild-nightwatch.png" alt="Nightwatch: guerrero, arquero y mago bajo la luna, con lobos, fuego y hielo" width="640" height="640"></div></section>
+    <section class="important-quests" aria-labelledby="important-title"><div class="quest-list-heading"><h2 id="important-title">Quests del mes</h2><span>Las quests resaltadas tienen fecha programada.</span></div><ul id="important-list" class="important-list"></ul></section>
+    <div class="agenda-heading"><div><div class="eyebrow">FECHAS Y HORARIOS</div><h2>Calendario de quests</h2></div></div>
+    <section class="agenda">
+      <div class="calendar-panel"><div class="month-nav"><button id="prev" aria-label="Mes anterior">‹</button><h3 id="month-title"></h3><button id="next" aria-label="Mes siguiente">›</button></div><div class="weekdays"><span>LUN</span><span>MAR</span><span>MIÉ</span><span>JUE</span><span>VIE</span><span>SÁB</span><span>DOM</span></div><div id="calendar" class="calendar" aria-label="Calendario mensual"></div><div class="legend"><span><i></i> Quest programada</span><span><b></b> Día seleccionado</span></div></div>
+      <aside class="details"><div class="detail-top"><span class="eyebrow">QUESTS DEL DÍA</span><span id="quest-count"></span></div><p id="selected-date" class="selected-date"></p><div id="events" aria-live="polite"></div></aside>
+    </section>
+    <section class="on-demand-quests" aria-labelledby="on-demand-title">
+      <h2 id="on-demand-title">Otras quests · Sin calendario</h2>
+      <p>Estas quests se pueden organizar en el momento, según quién esté disponible. Pide ayuda en el grupo de WhatsApp o a algún miembro conectado.</p>
+      <ul class="on-demand-list">
+        <li><strong>Portales de Thais</strong><span>Forgotten Knowledge · Portales individuales</span></li>
+      </ul>
+    </section>
+    <footer><span class="footer-brand">☽ &nbsp; NIGHTWATCH</span><span>Horarios en hora de Ciudad de México.</span><span>Fansite de la guild · No oficial de Tibia</span></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
